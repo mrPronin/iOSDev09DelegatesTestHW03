@@ -19,6 +19,9 @@
 		3E30A6A818A0EA1A00947465 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E30A69018A0EA1A00947465 /* UIKit.framework */; };
 		3E30A6B018A0EA1A00947465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E30A6AE18A0EA1A00947465 /* InfoPlist.strings */; };
 		3E30A6B218A0EA1A00947465 /* _9DelegatesTestHW03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30A6B118A0EA1A00947465 /* _9DelegatesTestHW03Tests.m */; };
+		3E30A6C118A0EA4B00947465 /* RITPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30A6BC18A0EA4B00947465 /* RITPatient.m */; };
+		3E30A6C218A0EA4B00947465 /* RITDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30A6BE18A0EA4B00947465 /* RITDoctor.m */; };
+		3E30A6C318A0EA4B00947465 /* RITQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E30A6C018A0EA4B00947465 /* RITQuack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		3E30A6AD18A0EA1A00947465 /* 09DelegatesTestHW03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "09DelegatesTestHW03Tests-Info.plist"; sourceTree = "<group>"; };
 		3E30A6AF18A0EA1A00947465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E30A6B118A0EA1A00947465 /* _9DelegatesTestHW03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9DelegatesTestHW03Tests.m; sourceTree = "<group>"; };
+		3E30A6BB18A0EA4B00947465 /* RITPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITPatient.h; sourceTree = "<group>"; };
+		3E30A6BC18A0EA4B00947465 /* RITPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITPatient.m; sourceTree = "<group>"; };
+		3E30A6BD18A0EA4B00947465 /* RITDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITDoctor.h; sourceTree = "<group>"; };
+		3E30A6BE18A0EA4B00947465 /* RITDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITDoctor.m; sourceTree = "<group>"; };
+		3E30A6BF18A0EA4B00947465 /* RITQuack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITQuack.h; sourceTree = "<group>"; };
+		3E30A6C018A0EA4B00947465 /* RITQuack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITQuack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,12 @@
 		3E30A69218A0EA1A00947465 /* 09DelegatesTestHW03 */ = {
 			isa = PBXGroup;
 			children = (
+				3E30A6BB18A0EA4B00947465 /* RITPatient.h */,
+				3E30A6BC18A0EA4B00947465 /* RITPatient.m */,
+				3E30A6BD18A0EA4B00947465 /* RITDoctor.h */,
+				3E30A6BE18A0EA4B00947465 /* RITDoctor.m */,
+				3E30A6BF18A0EA4B00947465 /* RITQuack.h */,
+				3E30A6C018A0EA4B00947465 /* RITQuack.m */,
 				3E30A69B18A0EA1A00947465 /* RITAppDelegate.h */,
 				3E30A69C18A0EA1A00947465 /* RITAppDelegate.m */,
 				3E30A69E18A0EA1A00947465 /* Images.xcassets */,
@@ -240,8 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E30A6C218A0EA4B00947465 /* RITDoctor.m in Sources */,
 				3E30A69D18A0EA1A00947465 /* RITAppDelegate.m in Sources */,
+				3E30A6C318A0EA4B00947465 /* RITQuack.m in Sources */,
 				3E30A69918A0EA1A00947465 /* main.m in Sources */,
+				3E30A6C118A0EA4B00947465 /* RITPatient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
